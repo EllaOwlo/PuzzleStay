@@ -22,6 +22,9 @@ html{scroll-behavior: smooth;
         font-family: "Bagel Fat One", system-ui;
         font-weight: 400;
         font-style: normal;
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
 
     }
 
@@ -72,14 +75,26 @@ html{scroll-behavior: smooth;
 
     /*LISTING SECTION (ELLA)*/
 
-    .bigdiv{background-color: #E9F5FD;
+    .bigdiv1{background-color: #E9F5FD;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         padding-top: 120px;
+        padding-bottom: 20px;
 
     }
+
+    .bigdiv2{background-color: #E9F5FD;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom:20px;
+
+    }
+
 
     .addlist{list-style: none;
         padding-inline-start: 0;
