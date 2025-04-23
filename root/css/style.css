@@ -77,20 +77,65 @@ html{scroll-behavior: smooth;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding-top: 110px;
+        padding-top: 120px;
 
     }
 
     .addlist{list-style: none;
         padding-inline-start: 0;
+        margin-bottom: 40px;
+        margin-top: 40px;
 
     }
 
 
     .smalldiv{background-color: #F7E3EC;
+        margin:10px;
+        padding:10px
 
     }
 
+    .listheader{font-family: "DynaPuff", system-ui;
+        font-weight: 30;
+        color: #F85583;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .desctext{font-family:"Roboto", sans-serif;
+        color: black;
+        background-color: white;
+        border-radius: 5px;
+        padding:10px
+
+    }
+
+    .addline{font-family:"Roboto", sans-serif;
+        color: black;
+
+    }
+
+    .infosec{display: flex;
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+
+    .infosectext{font-family: "DynaPuff", system-ui;
+        font-weight: 30;
+        color: black;
+        background-color: #FFFCA8;
+        border-radius: 50px;
+        font-size: 30px;
+        padding: 10px;
+
+        width: 60%;
+        margin: 10px;
+
+    }
 
 
 
