@@ -75,9 +75,6 @@ html{scroll-behavior: smooth;
 
     /*LISTING SECTION (ELLA)*/
 
-    #listingbig{display: none;
-
-    }
 
     .bigdiv1{background-color: #E9F5FD;
         display: flex;
@@ -157,7 +154,9 @@ html{scroll-behavior: smooth;
     }
 
 
+    #indi{display: none;
 
+    }
 
 
 
