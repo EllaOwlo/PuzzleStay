@@ -67,7 +67,20 @@ html{scroll-behavior: smooth;
 
  
 
+    /* Account Section */
 
+    .account {
+	font-family: "DynaPuff", system-ui;
+	font-weight: 30;
+	color: black;
+	background-color: #FF8EAE;
+	border-radius: 50px;
+	font-size: 30px;
+	padding: 10px;
+	width: 60%;
+	margin: 10px;
+    justify-content: center;
+}
 
 
 
