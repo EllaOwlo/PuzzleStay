@@ -174,28 +174,41 @@
 
     <section id="indi">
 
-        <div><img src="img/larrow.png">
+        <div class="colordiv" id="arrowdiv"><img src="img/larrow.png">
         </div>
 
-        <div id="headdiv">
-            <h2 id="headtop"> </h2>
+
+        <div class="colordiv" id="bighdiv">
+            
+            <div id="headdiv">
+                <h2 id="headtop"> </h2>
+            </div>
+
         </div>
 
-        <div> 
-            <img src="img/building1.png">
+        <div class="colordiv" id="builddiv"> 
+            <img  class="building" id="buildingids" src="img/building1.png">
 
         </div>
 
-        <div>
-            <h3 class="destitle">Description</h3>
+        <div class="colordiv1">
+            <h3 class="destitle listheader">Description</h3>
 
             <p id="des"> </p>
 
-            <p id="diff"class="yellow">Difficulty:</p>
+            <div class="yellowdiv">
+                <p class="infosectextl" id="diff"class="yellow">Difficulty:</p>
 
-            <p id="pricey"class="yellow">Min: </p>
+            </div>
 
-            <h3 class="destitle">Location</h3>
+            <div class="yellowdiv">
+                
+                <p class="infosectextl"id="pricey"class="yellow">Min: </p>
+
+            </div>
+
+
+            <h3 class="destitle listheader">Location</h3>
 
             <ul id="address">
                 <li class="aline"> </li>
@@ -206,7 +219,7 @@
 
             </ul>
 
-            <h3 class="destitle">Prices</h3>
+            <h3 class="destitle listheader">Prices</h3>
 
             <ul id="pricelis">
                 <li class="price">1 person: </li>
@@ -220,8 +233,8 @@
             <h6 id="cond">*Family is 4 persons</h6>
 
             <h3 id="rewardtl">Rewards</h3>
-            <p id="reward1"> </p>
-            <p id="reward2"></p>
+            <p class="reward"id="reward1"> </p>
+            <p  class="reward" id="reward2"></p>
 
 
             <button id="booknow">Book now</button>

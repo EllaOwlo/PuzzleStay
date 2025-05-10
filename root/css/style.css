@@ -61,7 +61,10 @@ html{scroll-behavior: smooth;
     }
 
     .building{
-        width: 80%;
+        width: 90%;
+
+    }
+    .colordiv{background-color: #E9F5FD
 
     }
 
@@ -115,8 +118,9 @@ html{scroll-behavior: smooth;
         font-weight: 30;
         color: #F85583;
         font-size: 30px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top:10px;
 
     }
 
@@ -155,9 +159,142 @@ html{scroll-behavior: smooth;
 
 
     #indi{display: none;
-        padding-top: 125px;
+        padding-top: 100px;
 
     }
+
+    #arrowdiv{display: flex;
+        justify-content: flex-start;
+
+    }
+
+    #headdiv{display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        background-color: #FF8EAE;
+        height: 100px;
+        width: 70%;
+
+    }
+
+    #bighdiv{display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 40px;
+
+    }
+
+    #headtop{text-align: center;
+        font-size: 40px;
+        font-family: "DynaPuff", system-ui;
+        font-weight: 30;
+        color: white;
+
+
+    }
+
+    #builddiv{display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 50px;
+
+    }
+
+    .colordiv1{background-color: #F7E3EC;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    .infosectextl{font-family: "DynaPuff", system-ui;
+        font-weight: 30;
+        color: black;
+        font-size: 30px;
+
+    }
+
+    .yellowdiv{ background-color: #FFFCA8;
+        border-radius: 50px;
+        height:40px;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+
+        width: 60%;
+
+    }
+
+    #des{font-family:"Roboto", sans-serif;
+        color: black;
+        background-color: white;
+        border-radius: 5px;
+        padding:10px
+
+
+    }
+
+    #address{list-style: none;
+        padding-inline-start: 0%;
+        font-family:"Roboto", sans-serif;
+        color: black;
+        font-size: 20px;
+        
+
+    }
+
+    #pricelis{list-style: none;
+        padding-inline-start: 0%;
+        font-family:"Roboto", sans-serif;
+        color: black;
+        font-size: 20px;
+        border: 3px solid #FFFCA8;
+        padding: 40px 20px 40px 20px;
+        border-radius: 40px;
+        width: 60%;
+
+    }
+
+    #cond{
+        font-family: "DynaPuff", system-ui;
+        font-weight: 30;
+        color: #F85583;
+
+    }
+
+    .reward{
+        font-family:"Roboto", sans-serif;
+        color: black;
+        font-size: 20px;
+
+    }
+
+    #booknow{background-color: white;
+        color: #00A9FE;
+        border: none;
+        font-family: "DynaPuff", system-ui;
+        font-weight: 30;
+        text-decoration: underline;
+        border-radius: 40px;
+        font-size: 40px;
+        margin-bottom: 30px;
+
+    }
+
+    #rewardtl{font-family: "DynaPuff", system-ui;
+        font-weight: 30;
+        background-color: #9FD6ED;
+        color: #FFFDC0;
+        width: 40%;
+        border-radius: 40px;
+        font-size: 30px;
+        text-align: center;
+
+    }
+
+    
 
 
 
