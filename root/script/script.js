@@ -18,8 +18,10 @@ $(document).ready(function() {
 
     
     $('.target').click(function(){
-        $('#indi').css('opacity', 0).show().animate({ opacity: 1 }, 100, 'swing');
-        $('#listingbig').hide();
+        $('#listingbig').animate({ opacity: 0 }, 0, function() {
+        $(this).css('display', 'none');
+        });
+        $('#indi').css({ opacity: 0, display: 'block' }).animate({ opacity: 1 }, 300);
     
         const index=$(this).data('target');
    
