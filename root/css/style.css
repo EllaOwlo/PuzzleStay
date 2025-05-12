@@ -68,6 +68,10 @@ html{scroll-behavior: smooth;
  
 
     /* Account Section */
+    
+    .account1 {
+        padding: 20px;
+    }
 
     .acc-button {
         background-color: #00bfff;
@@ -103,12 +107,15 @@ html{scroll-behavior: smooth;
         margin-right: 10px;
     }
     .account-header {
-        background-color: #e0f7fa;
+        font-family: "DynaPuff", system-ui;
+        color: #fff;
+        background-color: #FF8EAE;
         padding: 15px;
         border-radius: 10px;
         text-align: center;
         font-size: 24px;
-        font-weight: bold;
+        margin: 2rem 2rem;
+
     }
     .button-container {
         display: flex;
