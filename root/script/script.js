@@ -18,8 +18,9 @@ $(document).ready(function() {
 
     
     $('.target').click(function(){
-        $('#listingbig').hide()
-        $('#indi').show()
+        $('#indi').css('opacity', 0).show().animate({ opacity: 1 }, 100, 'swing');
+        $('#listingbig').hide();
+    
         const index=$(this).data('target');
    
         let indexnew=parseInt(index, 10)
