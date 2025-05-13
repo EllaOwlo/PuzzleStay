@@ -16,6 +16,11 @@ $(document).ready(function() {
     ];
 
 
+    let lists1 =[
+        "1 Person :", "Duo: " , "Family: "
+    ]
+
+
     
     $('.target').click(function(){
         $('#listingbig').animate({ opacity: 0 }, 0, function() {
@@ -49,13 +54,33 @@ $(document).ready(function() {
         $('#reward2').text(listi[7])
 
 
+    })
+    $('#arrow').click(function(){
+        
+
+        $('#buildingids').attr("src" , "")
 
 
+        $('#headtop').text("")
+        $('#des').text("")
+        $('#diff').text("Difficulty:")
+        $('#pricey').text("Min:")
 
+        $("#address li").each(function(index){
+            $(this).text("")
+        })
 
+        $("#pricelis li").each(function(index){
+            $(this).text(lists1[index]);
+        })
 
-
-
+        $('#reward1').text("")
+        
+        $('#reward2').text("")
+        $('#indi').animate({ opacity: 0 }, 0, function() {
+            $(this).css('display', 'none');
+        });
+        $('#listingbig').css({ opacity: 0, display: 'block' }).animate({ opacity: 1 }, 300);
 
 
     })
