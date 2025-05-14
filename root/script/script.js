@@ -25,6 +25,7 @@ $(document).ready(function() {
     $('.target').click(function(){
         $('#listingbig').animate({ opacity: 0 }, 0, function() {
         $(this).css('display', 'none');
+        console.log(this)
         });
         $('#indi').css({ opacity: 0, display: 'block' }).animate({ opacity: 1 }, 300);
     
@@ -79,6 +80,7 @@ $(document).ready(function() {
         $('#reward2').text("")
         $('#indi').animate({ opacity: 0 }, 0, function() {
             $(this).css('display', 'none');
+            console.log("animating")
         });
         $('#listingbig').css({ opacity: 0, display: 'block' }).animate({ opacity: 1 }, 300);
 
