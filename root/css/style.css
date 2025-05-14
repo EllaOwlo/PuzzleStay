@@ -71,10 +71,14 @@ html{scroll-behavior: smooth;
     
     .account1 {
         padding: 20px;
+        background-color: #E9F5FD;
     }
 
     .details {
-        margin: 20px;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 15px;
+
     }
 
     .account-header {
@@ -84,13 +88,14 @@ html{scroll-behavior: smooth;
         padding: 15px;
         border-radius: 50px;
         text-align: center;
-        font-size: 36px;
+        font-size: 32px;
         margin: 2rem 2rem;
 
     }
 
     .acc-button {
-        background-color: #00bfff;
+        font-family: "DynaPuff", system-ui;
+        background-color: #9FD6ED;
         color: white;
         border: none;
         padding: 10px 20px;
@@ -98,6 +103,7 @@ html{scroll-behavior: smooth;
         cursor: pointer;
         font-size: 16px;
         margin-bottom: 25px;
+        font-weight: lighter;
     }
     .acc-button:hover {
         background-color: #009acd;
@@ -116,7 +122,6 @@ html{scroll-behavior: smooth;
     }
     label {
         font-family:"Roboto", sans-serif;
-        font-weight: bold;
     }
     .profile-pic {
         display: flex;
