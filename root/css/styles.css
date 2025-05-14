@@ -86,9 +86,15 @@ html {
   #heroimg {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
-    padding: 40px;
+    padding: 200px 40px;
     border-radius: 20px;
     color: white;
+    background: url(../img/puzzled-bckgrd.png);
+    height: 90vh;
+  }
+
+  .heroimg {
+
   }
 
   .headtag {
