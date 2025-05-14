@@ -16,11 +16,6 @@ $(document).ready(function() {
     ];
 
 
-    let lists1 =[
-        "1 Person :", "Duo: " , "Family: "
-    ]
-
-
     
     $('.target').click(function(){
         $('#listingbig').animate({ opacity: 0 }, 0, function() {
@@ -55,26 +50,13 @@ $(document).ready(function() {
         $('#reward2').text(listi[7])
 
 
-    })
-    $('#arrow').click(function(){
-        
-
-        $('#buildingids').attr("src" , "")
 
 
-        $('#headtop').text("")
-        $('#des').text("")
-        $('#diff').text("Difficulty:")
-        $('#pricey').text("Min:")
 
-        $("#address li").each(function(index){
-            $(this).text("")
-        })
 
-        $("#pricelis li").each(function(index){
-            $(this).text(lists1[index]);
-        })
 
+<<<<<<< HEAD
+<<<<<<< HEAD
         $('#reward1').text("")
         
         $('#reward2').text("")
@@ -83,6 +65,14 @@ $(document).ready(function() {
             console.log("animating")
         });
         $('#listingbig').css({ opacity: 0, display: 'block' }).animate({ opacity: 1 }, 300);
+=======
+
+
+>>>>>>> parent of fb73fb6 (update arrow)
+=======
+
+
+>>>>>>> parent of fb73fb6 (update arrow)
 
 
     })
