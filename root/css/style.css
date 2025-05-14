@@ -167,6 +167,7 @@ html{scroll-behavior: smooth;
 
     #listingbig{
         opacity: 1;
+        display: none;
 
     }
 
@@ -307,6 +308,9 @@ html{scroll-behavior: smooth;
 
     }
 
+    #bookingbig, #bookingbig1{
+        padding-top: 100px;
+    }
     
 
 
