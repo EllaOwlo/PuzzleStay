@@ -166,6 +166,7 @@ html{scroll-behavior: smooth;
 
     #listingbig{
         opacity: 1;
+        display: none;
 
     }
 
