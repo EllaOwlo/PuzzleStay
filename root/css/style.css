@@ -93,15 +93,21 @@ html{scroll-behavior: smooth;
 
     }
 
+    h3 {
+        font-family:"Roboto", sans-serif;
+        font-weight: normal;
+    }
+
     .acc-button {
         font-family: "DynaPuff", system-ui;
         background-color: #9FD6ED;
         color: white;
         border: none;
         padding: 10px 20px;
-        border-radius: 5px;
+        border-radius: 10px;
         cursor: pointer;
         font-size: 16px;
+        margin-top: 25px;
         margin-bottom: 25px;
         font-weight: lighter;
     }
@@ -126,7 +132,6 @@ html{scroll-behavior: smooth;
     .profile-pic {
         display: flex;
         align-items: center;
-        justify-content: center;
     }
     .profile-pic img {
         border-radius: 50%;
