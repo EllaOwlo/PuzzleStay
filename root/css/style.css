@@ -145,7 +145,7 @@ html{scroll-behavior: smooth;
         margin-bottom: 30px;
         margin-right: 1px;
     }
-    
+
     label {
         font-family:"Roboto", sans-serif;
     }
@@ -156,6 +156,8 @@ html{scroll-behavior: smooth;
     .profile-pic img {
         border-radius: 50%;
         margin-right: 10px;
+        object-fit: cover;
+        cursor: pointer;
     }
     
     .button-container {
