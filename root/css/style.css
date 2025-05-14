@@ -149,6 +149,12 @@ html{scroll-behavior: smooth;
     label {
         font-family:"Roboto", sans-serif;
     }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
     .profile-pic {
         display: flex;
         align-items: center;
