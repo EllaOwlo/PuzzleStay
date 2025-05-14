@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=photo_camera" />
 
 </head>
 <body>
@@ -181,9 +182,15 @@
     <div class="account-header">Account</div>
     <div class="profile-pic">
         <img src="https://placehold.co/125x125" alt="Profile">
-        <input type="file" id="profilePicInput" accept="image/*">
+            <label for="file-path">
+                <span class="material-symbols-rounded">photo_camera</span>
+            </label>
+            <input type="file" accept="image/jpeg, image/png image/jpg" id="file-path">
+        </div>
+        <h3>Username</h3>
+        
+    </div>
         <div>
-            <h3>Username</h3>
         </div>
     </div>
     <div>
@@ -191,7 +198,7 @@
         <button class="acc-button">Preferences</button>
     </div>
     <section class="details">
-    <h2 class="acc-button">Personal Details</h2>
+    <h2 class="acc-button2">Personal Details</h2>
         <form>
             <div>
                 <div>
@@ -214,11 +221,11 @@
         </form>
     </div>
     <div>
-        <button class="acc-button">Delete Account</button>
+        <button class="acc-button2">Delete Account</button>
         <br>
-        <button class="acc-button">Log Out</button>
+        <button class="acc-button2">Log Out</button>
         <br>
-        <button class="acc-button">Save</button>
+        <button class="acc-button2">Save</button>
     </div>
     </section>
 </section>

@@ -96,15 +96,17 @@ html{scroll-behavior: smooth;
     h3 {
         font-family:"Roboto", sans-serif;
         font-weight: normal;
+        font-size: 25px;
+        margin-left: 20px;
     }
 
     .acc-button {
         font-family: "DynaPuff", system-ui;
-        background-color: #9FD6ED;
+        background-color: #FF8EAE;
         color: white;
         border: none;
         padding: 10px 20px;
-        border-radius: 10px;
+        border-radius: 25px;
         cursor: pointer;
         font-size: 16px;
         margin-top: 25px;
@@ -112,20 +114,38 @@ html{scroll-behavior: smooth;
         font-weight: lighter;
     }
     .acc-button:hover {
+        background-color: #9FD6ED;
+    }
+
+    .acc-button2 {
+        font-family: "DynaPuff", system-ui;
+        background-color: #9FD6ED;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-bottom: 25px;
+        font-weight: lighter;
+    }
+    .acc-button2:hover {
         background-color: #009acd;
     }
+
+
     input[type="text"], input[type="email"] {
         width: 100%;
-        padding: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         background-color: #F5F5F5;
         border: none;
         border-radius: 5px;
         margin-top: 5px;
         margin-bottom: 30px;
+        margin-right: 1px;
     }
-    input[type="file"] {
-        display: none;
-    }
+    
     label {
         font-family:"Roboto", sans-serif;
     }
