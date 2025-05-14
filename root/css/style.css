@@ -73,6 +73,22 @@ html{scroll-behavior: smooth;
         padding: 20px;
     }
 
+    .details {
+        margin: 20px;
+    }
+
+    .account-header {
+        font-family: "DynaPuff", system-ui;
+        color: #fff;
+        background-color: #FF8EAE;
+        padding: 15px;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 36px;
+        margin: 2rem 2rem;
+
+    }
+
     .acc-button {
         background-color: #00bfff;
         color: white;
@@ -81,6 +97,7 @@ html{scroll-behavior: smooth;
         border-radius: 5px;
         cursor: pointer;
         font-size: 16px;
+        margin-bottom: 25px;
     }
     .acc-button:hover {
         background-color: #009acd;
@@ -88,35 +105,29 @@ html{scroll-behavior: smooth;
     input[type="text"], input[type="email"] {
         width: 100%;
         padding: 10px;
-        border: 1px solid #ccc;
+        background-color: #F5F5F5;
+        border: none;
         border-radius: 5px;
         margin-top: 5px;
+        margin-bottom: 30px;
     }
     input[type="file"] {
         display: none;
     }
     label {
+        font-family:"Roboto", sans-serif;
         font-weight: bold;
     }
     .profile-pic {
         display: flex;
         align-items: center;
+        justify-content: center;
     }
     .profile-pic img {
         border-radius: 50%;
         margin-right: 10px;
     }
-    .account-header {
-        font-family: "DynaPuff", system-ui;
-        color: #fff;
-        background-color: #FF8EAE;
-        padding: 15px;
-        border-radius: 10px;
-        text-align: center;
-        font-size: 24px;
-        margin: 2rem 2rem;
-
-    }
+    
     .button-container {
         display: flex;
         justify-content: space-between;
