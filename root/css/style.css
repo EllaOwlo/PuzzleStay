@@ -70,12 +70,13 @@ html{scroll-behavior: smooth;
 
     }
 
+
     #header2{
         z-index: 3;
 
     }
 
- 
+
 
 
 
@@ -166,7 +167,6 @@ html{scroll-behavior: smooth;
 
     #listingbig{
         opacity: 1;
-        display: none;
 
     }
 
@@ -311,14 +311,7 @@ html{scroll-behavior: smooth;
 
 
 
-    #bookingbig1{padding-top: 100px;
 
-    }
-
-    #bookingbig{
-        padding-top: 100px;
-
-    }
 
 
 
