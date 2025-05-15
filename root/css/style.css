@@ -374,7 +374,6 @@ html{scroll-behavior: smooth;
 
     #bluer{background-color: #E9F5FD;
         display: flex;
-        justify-content: center;
         align-items: center;
         gap:10px;
         margin:20px;
@@ -388,21 +387,29 @@ html{scroll-behavior: smooth;
         flex-direction: column;
         align-items: flex-start;
         height:100%;
-        margin-right: 10px
+        margin-right: 10px;
+        width: 20%;
         
     }
 
     #accr{
-        margin: 0px;
+        margin: 0px 0px 30px 0px;
         font-family:"Roboto", sans-serif;
         font-size: 20px;
         font-weight: 400;
     }
-    #detr1{
+    .detr1{
         font-family:"Roboto", sans-serif;
         font-size: 15px;
         font-weight: 400;
+        margin: 5px;
 
+    }
+
+    #accdivr{
+        width: 50%;
+        margin-left: 10px;
+        word-wrap: break-word;
     }
 
     .liner li{font-family:"Roboto", sans-serif;
@@ -449,6 +456,7 @@ html{scroll-behavior: smooth;
         justify-content: center;
         height: 100px;
         margin: 10px;
+        border-radius: 30px;
     }
 
     #buttonb{
@@ -462,6 +470,10 @@ html{scroll-behavior: smooth;
         font-weight: 30;
         color: white;
         font-size: 25px;
+    }
+
+    #checkm{
+        width: 50%;
     }
 
 
@@ -508,9 +520,71 @@ html{scroll-behavior: smooth;
     }
 
     .img1{
-        width: 50%;
+        width: 90%;
+        margin-top: 10px;
     }
     
+    #viewdtext{font-family: "DynaPuff", system-ui;
+        font-size: 15px;
+        color: white;
+
+    }
+
+    #saveimg{
+        margin-left: 10px;
+    }
+
+    #checkmore{font-family: "DynaPuff", system-ui;
+        font-size: 30px;
+        color: #F85583;
+        font-weight: 400;
+        margin:40px 0px 40px 10px;
+
+    }
+
+    #morel{
+        background-color: #E9F5FD;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .morebig{display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F7E3EC;
+        border-radius: 30px;
+        margin: 30px;
+
+    }
+
+    .mored{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap:35px;
+        width: 100%;
+    }
+
+    .morediv{
+        background-color: #FFFCA8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        width: 100%;
+        border-radius: 40px;
+    }
+
+    .moredivt{
+        text-align: center;
+        font-family: "DynaPuff", system-ui;
+        font-size: 20px;
+        color: #F85583;
+        width: 100%;
+    }
     
 
 
