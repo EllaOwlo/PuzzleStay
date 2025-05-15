@@ -308,9 +308,206 @@ html{scroll-behavior: smooth;
 
     }
 
+
+    /*BOOKING*/
+
     #bookingbig, #bookingbig1{
         padding-top: 100px;
     }
+
+    #rev{
+        background-color: #fffee7;
+        display: flex;
+        align-items: center;
+
+        justify-content: flex-start;
+    }
+
+    #revarrow{
+        width: 10%;
+        padding-right: 15px;
+        padding-left: 15px;
+        height: 10%;
+    }
+
+    #revh{font-family: "DynaPuff", system-ui;
+        font-weight: 30;
+        font-size: 25px;
+
+    }
+
+    #pinkr{background-color: #F7E3EC;
+        display: flex;
+        justify-content: center;
+        margin:10px;
+        border-radius: 30px;
+        padding: 15px;
+
+    }
+
+    #userr{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height:100%;
+    margin-right: 10px
+    }
+
+    #detr{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #adultr{margin: 0px;
+        font-family:"Roboto", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+
+    }
+
+    #warnr{
+        font-family:"Roboto", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+
+    }
+
+    #bluer{background-color: #E9F5FD;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+        margin:20px;
+        padding: 10px;
+        border-radius: 30px;
+
+    }
+
+    #userr1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height:100%;
+        margin-right: 10px
+        
+    }
+
+    #accr{
+        margin: 0px;
+        font-family:"Roboto", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    #detr1{
+        font-family:"Roboto", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+
+    }
+
+    .liner li{font-family:"Roboto", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        list-style: none;
+
+    }
+
+    .liner{padding-inline-start: 0px;
+        margin:10px
+
+    }
+
+    #white{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        margin: 20px;
+        border-radius: 30px;
+    }
+
+    #pinkbig{display: flex;
+        flex-direction: column;
+        background-color:#F7E3EC;
+        margin: 10px;
+        border-radius: 30px;
+
+    }
+
+    #warnr1{font-family:"Roboto", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        list-style: none;
+        color: #886464;
+        margin: 20px;
+
+    }
+    #buttonp{
+        background-color: #FF8EAE;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        margin: 10px;
+    }
+
+    #buttonb{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #con{
+        text-align: center;
+        font-family: "DynaPuff", system-ui;
+        font-weight: 30;
+        color: white;
+        font-size: 25px;
+    }
+
+
+
+
+
+    #arrowdiv1{
+        width: 90%;
+        margin: 20px;
+        display: flex;
+    }
+
+    #check1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #congrats{font-family:"Roboto", sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+
+    }
+
+    #emailc{
+        text-align: center;
+        font-family: "DynaPuff", system-ui;
+        font-size: 15px;
+    }
+
+    #viewd{
+        background-color: #9FD6ED;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        gap: 30px;
+    }
+
+    #save{border-left:5px solid white;
+        display: flex;
+        justify-content: center;
+
+    }
+    
     
 
 
