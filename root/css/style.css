@@ -167,7 +167,6 @@ html{scroll-behavior: smooth;
 
     #listingbig{
         opacity: 1;
-        display: none;
 
     }
 
@@ -308,6 +307,7 @@ html{scroll-behavior: smooth;
 
     }
 
+<<<<<<< HEAD
 
     /*BOOKING*/
 
@@ -508,6 +508,8 @@ html{scroll-behavior: smooth;
 
     }
     
+=======
+>>>>>>> parent of e63d6dd (update fixed bug html)
     
 
 
