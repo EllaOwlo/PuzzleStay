@@ -307,7 +307,6 @@ html{scroll-behavior: smooth;
 
     }
 
-<<<<<<< HEAD
 
     /*BOOKING*/
 
@@ -507,9 +506,11 @@ html{scroll-behavior: smooth;
         justify-content: center;
 
     }
+
+    .img1{
+        width: 50%;
+    }
     
-=======
->>>>>>> parent of e63d6dd (update fixed bug html)
     
 
 
