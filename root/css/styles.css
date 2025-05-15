@@ -76,7 +76,7 @@ html {
   /* HERO SECTION */
 
   #hero {
-    background: url("img/puzzled-bckgrd.jpg") center center / cover no-repeat;
+    /* background: url("img/puzzled-bckgrd.jpg") center center / cover no-repeat; */
     height: 100vh;
     display: flex;
     align-items: center;
@@ -85,28 +85,29 @@ html {
 
   #heroimg {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+    /* background-color: rgba(0, 0, 0, 0.5); dark overlay */
     padding: 200px 40px;
     border-radius: 20px;
-    color: white;
+    color: f85583;
     background: url(../img/puzzled-bckgrd.png);
     height: 90vh;
   }
 
-  .heroimg {
 
-  }
 
   .headtag {
     font-family: "DynaPuff", cursive;
     font-size: 2.5rem;
     margin-bottom: 20px;
+    text-align: center;
+    color: #f85583;
   }
 
   .explore-btn {
     padding: 12px 30px;
     font-size: 1.1rem;
-    background-color: #f57c00;
+    text-decoration: underline;
+    /* background-color:#; */
     color: white;
     border: none;
     border-radius: 25px;
@@ -136,6 +137,14 @@ html {
     border: none;
     border-radius: 15px;
     max-width: 1000px;
+  }
+
+  #about {
+    padding: 40px 20px;
+  }
+  .about1 {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
   }
 
   /* IMAGE GRID SECTION */
@@ -168,7 +177,7 @@ html {
 
   .how-to-play h3 {
     font-size: 1.8rem;
-    color: #f57c00;
+    color: #f85583;
     margin-bottom: 16px;
   }
 
@@ -188,11 +197,11 @@ html {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease;
 } */
-  .triangle {
+  /* .triangle {
     width: 70px;
     height: 70px;
     /* clip-path: polygon(50% 0%, 0% 100%, 100% 100%); */
-    border-radius: 100%;
+    /* border-radius: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -200,11 +209,11 @@ html {
     color: #000;
     font-weight: bold;
     transition: transform 0.3s ease;
-  }
+  } */
 
   .triangle:hover {
     transform: scale(1.05);
-  }
+  } */
 
   /*LISTING SECTION (ELLA)*/
 
@@ -219,7 +228,7 @@ html {
   }
 
   .bigdiv2 {
-    background-color: #e9f5fd;
+    background-color:#e9f5fd;
     display: flex;
     align-items: center;
     justify-content: center;
