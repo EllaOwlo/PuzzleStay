@@ -55,8 +55,7 @@ $(document).ready(function() {
 
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
         $('#reward1').text("")
         
         $('#reward2').text("")
@@ -65,14 +64,9 @@ $(document).ready(function() {
             console.log("animating")
         });
         $('#listingbig').css({ opacity: 0, display: 'block' }).animate({ opacity: 1 }, 300);
-=======
 
 
->>>>>>> parent of fb73fb6 (update arrow)
-=======
 
-
->>>>>>> parent of fb73fb6 (update arrow)
 
 
     })
