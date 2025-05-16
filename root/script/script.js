@@ -56,7 +56,7 @@ $(document).ready(function() {
 
 
     })
-    $('#arrow').click(function(){
+    $('#arrowdiv').click(function(){
         
 
         $('#buildingids').attr("src" , "")
@@ -80,10 +80,39 @@ $(document).ready(function() {
         $('#reward2').text("")
         $('#indi').animate({ opacity: 0 }, 0, function() {
             $(this).css('display', 'none');
-            console.log("animating")
         });
         $('#listingbig').css({ opacity: 0, display: 'block' }).animate({ opacity: 1 }, 300);
 
+
+    })
+
+    $('#booknow').click(function(){
+        $('#indi').hide();
+        $('#bookingbig').slideDown('slow');
+
+    })
+
+    $('#booknow').click(function(){
+        $('#indi').hide();
+        $('#bookingbig').slideDown('slow');
+
+    })
+
+    $('#con').click(function(){
+        $('#bookingbig').hide();
+        $('#bookingbig1').slideDown('slow');
+
+    })
+
+    $('#book1a').click(function(){
+        $('#bookingbig1').hide();
+        $('bookingbig').slideDown('slow');
+
+    })
+
+    $('#revarrow').click(function(){
+        $('#bookingbig').hide();
+        $('#indi').slideDown('slow');
 
     })
 

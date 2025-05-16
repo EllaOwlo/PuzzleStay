@@ -314,6 +314,14 @@ html{scroll-behavior: smooth;
         padding-top: 100px;
     }
 
+    #bookingbig{
+        display: none;
+    }
+
+    #bookingbig1{
+        display: none;
+    }
+
     #rev{
         background-color: #fffee7;
         display: flex;
