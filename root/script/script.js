@@ -116,6 +116,18 @@ $(document).ready(function() {
 
     })
 
+    $('#user').click(function(){
+        $('.select').hide();
+        $('#account1').slideDown('slow');
+
+    })
+
+    $('.backa').click(function(){
+        $('#account1').hide();
+        $('#listingbig').slideDown('slow');
+
+    })
+
 
 
 

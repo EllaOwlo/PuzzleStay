@@ -36,6 +36,7 @@ html{scroll-behavior: smooth;
 
     #user{width: 70%;
 
+
     }
 
     #account{
@@ -80,9 +81,11 @@ html{scroll-behavior: smooth;
 
     /* Account Section */
     
-    .account1 {
+    #account1 {
         padding: 20px;
         background-color: #E9F5FD;
+        display: none;
+        padding-top: 120px;
     }
 
     .details {
