@@ -78,7 +78,119 @@ html{scroll-behavior: smooth;
 
 
 
+    /* Account Section */
+    
+    .account1 {
+        padding: 20px;
+        background-color: #E9F5FD;
+    }
 
+    .details {
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 15px;
+
+    }
+
+    .account-header {
+        font-family: "DynaPuff", system-ui;
+        color: #fff;
+        background-color: #FF8EAE;
+        padding: 15px;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 32px;
+        margin: 2rem 2rem;
+
+    }
+
+    h3 {
+        font-family:"Roboto", sans-serif;
+        font-weight: normal;
+        font-size: 25px;
+        margin-left: 20px;
+    }
+
+    .acc-button {
+        font-family: "DynaPuff", system-ui;
+        background-color: #FF8EAE;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-weight: lighter;
+    }
+    .acc-button:hover {
+        background-color: #9FD6ED;
+    }
+
+    .acc-button2 {
+        font-family: "DynaPuff", system-ui;
+        background-color: #9FD6ED;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-bottom: 25px;
+        font-weight: lighter;
+    }
+    .acc-button2:hover {
+        background-color: #009acd;
+    }
+
+
+    input[type="text"], input[type="email"] {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #F5F5F5;
+        border: none;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 30px;
+        margin-right: 1px;
+    }
+
+    label {
+        font-family:"Roboto", sans-serif;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #file-path {
+        display: none;
+    }
+
+    .profile-pic label {
+        position: absolute;
+        top: 0;
+    }
+
+    .profile-pic {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    .profile-pic img {
+        border-radius: 50%;
+        margin-right: 10px;
+        object-fit: cover;
+        cursor: pointer;
+    }
+    
+    .button-container {
+        display: flex;
+        justify-content: space-between;
+    }
 
 
 
