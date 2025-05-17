@@ -7,4 +7,4 @@ $(document).ready(function () {
     $(target).fadeIn(500);            // show the target with fade
   });
 
-}
+})
