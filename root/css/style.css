@@ -6,6 +6,14 @@ body {
   /* display: none; */
     
   }
+  .section {
+    display: none;
+  }
+  
+  #homebig {
+    display: block; /* Or whatever section should show initially */
+  }
+  
   
   
   
