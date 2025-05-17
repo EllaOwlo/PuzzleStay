@@ -178,64 +178,57 @@
 </section>
 
 <!-- Alex Section -->
-<section class="account1">
-    <div class="account-header">Account</div>
-    <div class="wrapper">
-        <div class="profile-pic">
-            <img src="https://placehold.co/125x125" alt="Profile">
+<section class="account-page">
+        <h3>Account</h3>
+        <div class="profile-picture">
+            <img id="profileImg" src="https://placehold.co/125x125" alt="Profile Picture">
             <label for="file-path">
-                <span class="material-symbols-rounded">photo_camera</span>
+                <span class="material-symbols-rounded" onclick="document.getElementById('uploadImage').click();">photo_camera</span>
             </label>
-            <input type="file" accept="image/jpeg, image/png image/jpg" id="file-path" class="user-file">
-            <h3>Username</h3>
+            <span id="usernameDisplay"><span id="usernameHandle">Username</span></span>
+            <input type="file" class="upload-label" id="uploadImage" accept="image/jpeg, image/png, image/jpg">
         </div>
-    </div>
-
-    <script>
-        const profilePic = document.querySelector(".image img")
-        const userFile = document.querySelector("")
-    </script>
-        
-        
-    </div>
-        <div>
+        <div class="tabs">
+            <button class="tab-button" onclick="showTab('generalTab')">General</button>
+            <button class="tab-button" onclick="showTab('preferencesTab')">Preferences</button>
         </div>
-    </div>
-    <div>
-        <button class="acc-button">General</button>
-        <button class="acc-button">Preferences</button>
-    </div>
-    <section class="details">
-    <h2 class="acc-button2">Personal Details</h2>
-        <form>
-            <div>
-                <div>
-                    <label>Username</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label>Name</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label>Surname</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label>Email</label>
-                    <input type="email">
+        <section class="inputs">
+            <div id="generalTab" class="tab-content active">
+                <h4>Personal Details</h4>
+                <form id="accountForm">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="surname">Surname</label>
+                        <input type="text" id="surname" required>
+                    </div>
+                    <div class="button-group">
+                        <button type="button" id="deleteButton">Delete Account</button>
+                    </div>
+                    <div class="button-group">
+                        <button type="button" id="logoutButton">Log Out</button>
+                    </div>
+                    <div class="button-group">
+                        <button type="button" id="saveButton">Save</button>
+                    </div>
+                </form>
+            </div>
+            <div id="preferencesTab" class="tab-content">
+                <h4>Preferences</h4>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
                 </div>
             </div>
-        </form>
+        </section>
     </div>
-    <div>
-        <button class="acc-button2">Delete Account</button>
-        <br>
-        <button class="acc-button2">Log Out</button>
-        <br>
-        <button class="acc-button2">Save</button>
-    </div>
-    </section>
+    <script src="script/script.js"></script>
 </section>
 
 
