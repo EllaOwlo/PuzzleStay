@@ -196,6 +196,8 @@ document.addEventListener("DOMContentLoaded", function () {
         localStorage.setItem("userData", JSON.stringify(userData));
         usernameHandle.textContent = usernameInput.value;
         alert("Saved successfully");
+        $('.acselect').hide();
+        $('#listingbig').css({ opacity: 0, display: 'block' }).animate({ opacity: 1 }, 300);
     });
 
     document.getElementById("deleteButton").addEventListener("click", function () {
@@ -203,11 +205,18 @@ document.addEventListener("DOMContentLoaded", function () {
             localStorage.removeItem("userData");
             alert("Account deleted successfully");
             window.location.reload();
+            $('.acselect').hide();
+            $('#listingbig').css({ opacity: 0, display: 'block' }).animate({ opacity: 1 }, 300);
+
+
+
         }
     });
 
     document.getElementById("logoutButton").addEventListener("click", function () {
         alert("Logged out successfully");
+        $('.acselect').hide();
+        $('#listingbig').css({ opacity: 0, display: 'block' }).animate({ opacity: 1 }, 300);
     });
 
     uploadImage.addEventListener("change", function (event) {
