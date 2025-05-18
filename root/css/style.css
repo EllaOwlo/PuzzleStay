@@ -150,7 +150,7 @@ html {
     }
 
 
-    h3 {
+    #howto {
         font-family: "DynaPuff", system-ui;
         color: #fff;
         background-color: #FF8EAE;
@@ -367,6 +367,7 @@ html {
 
     #listingbig{
         opacity: 1;
+        display: none;
 
     }
 

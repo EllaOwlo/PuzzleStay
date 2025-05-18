@@ -39,8 +39,8 @@ $(document).ready(function() {
 
         $('#headtop').text(listi[0])
         $('#des').text(listi[1])
-        $('#diff').append(listi[2])
-        $('#pricey').append(listi[3])
+        $('#diff').text("Difficulty: " + listi[2])
+        $('#pricey').text("Min: " + listi[3])
 
         $("#address li").each(function(index){
             $(this).text(listi[4][index])
@@ -64,8 +64,8 @@ $(document).ready(function() {
 
         $('#headtop').text("")
         $('#des').text("")
-        $('#diff').text("Difficulty:")
-        $('#pricey').text("Min:")
+        $('#diff').text("")
+        $('#pricey').text("")
 
         $("#address li").each(function(index){
             $(this).text("")
@@ -85,6 +85,15 @@ $(document).ready(function() {
 
 
     })
+
+    $('#pressbutton').click(function(){
+        $("#homebig").css('display', 'none');
+        $('#listingbig').css({ opacity: 0, display: 'block' }).animate({ opacity: 1 }, 300);
+
+
+
+    })
+
 
     $('#booknow').click(function(){
         $('#indi').hide();
@@ -136,8 +145,8 @@ $(document).ready(function() {
 
         $('#headtop').text("")
         $('#des').text("")
-        $('#diff').text("Difficulty:")
-        $('#pricey').text("Min:")
+        $('#diff').text("")
+        $('#pricey').text("")
 
         $("#address li").each(function(index){
             $(this).text("")
@@ -154,6 +163,39 @@ $(document).ready(function() {
             $(this).css('display', 'none');
         });
         $('#listingbig').css({ opacity: 0, display: 'block' }).animate({ opacity: 1 }, 300);
+
+
+    })
+
+    $('#logo').click(function(){
+
+        $('.hselect').animate({ opacity: 0 }, 0, function() {
+            $(this).css('display', 'none');
+        });
+        $('#homebig').css({ opacity: 0, display: 'block' }).animate({ opacity: 1 }, 300);
+
+        
+        $('#buildingids').attr("src" , "")
+
+
+        $('#headtop').text("")
+        $('#des').text("")
+        $('#diff').text("Difficulty:")
+        $('#pricey').text("Min:")
+
+        $("#address li").each(function(index){
+            $(this).text("")
+        })
+
+        $("#pricelis li").each(function(index){
+            $(this).text(lists1[index]);
+        })
+
+        $('#reward1').text("")
+        
+        $('#reward2').text("")
+
+
 
 
     })
