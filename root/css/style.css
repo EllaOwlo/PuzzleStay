@@ -59,6 +59,10 @@ html {
 
   }
 
+  #account1{
+    display: none;
+  }
+
 
   #user {
     width: 70%;
@@ -280,6 +284,12 @@ html {
         margin-top: 30px;
     }
 
+    #accsec{font-family: "DynaPuff", system-ui;
+      color: #F85583;
+      font-size: 40px;
+
+    }
+
 
 
 
@@ -382,7 +392,7 @@ html {
 
     }
 
-    #headdiv{display: flex;
+    .headdiv{display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 30px;
@@ -399,7 +409,7 @@ html {
 
     }
 
-    #headtop{text-align: center;
+    .headtop{text-align: center;
         font-size: 40px;
         font-family: "DynaPuff", system-ui;
         font-weight: 30;
