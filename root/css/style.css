@@ -97,9 +97,9 @@ html {
   /*HOMEPAGE SECTION */
 
     /* home section background */
-    /* #homebig{
+    #homebig{
       background-color:#e9f5fd;
-    } */
+    } *
     
     /* HERO block with background image */
     #hero{
@@ -269,6 +269,65 @@ html {
   justify-content: space-between;
   align-items: center;
 }
+
+/* PUZZLE/RIDDLE SECTION  */
+
+#riddle-form {
+  padding:8px 12px;
+  border-radius:8px;
+  border:1px solid #ccc;
+  max-width:280px;
+  width:80%"
+}
+
+#puzzle-result{
+
+  display:none;
+  margin-top: 12px;
+  font-weight:bold;
+}
+
+
+
+#book-btn{
+  display:none;
+  margin-top:8px;
+  }  
+ 
+
+#puzzle {
+  padding: 32px 16px;
+  text-align: center;
+  background: var(--surface-lighter);   /* soft aqua */
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.08);
+  margin: 24px auto;
+  max-width: 640px;
+}
+
+.riddle-text {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: var(--text-dark);
+}
+
+/* Input field */
+#answer {
+  width: 80%;
+  max-width: 320px;
+  padding: 10px 14px;
+  border: 2px solid var(--brand-blue);
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 12px;
+  outline: none;
+  transition: border-color .25s;
+}
+#answer:focus {
+  border-color: var(--brand-pink);
+}
+
+
 
 
 

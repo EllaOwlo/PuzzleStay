@@ -21,4 +21,24 @@ $(document).ready(function () {
     });
   });
   
-  
+
+  // Riddle Section
+/* mini puzzle */
+
+$('#riddle-form').on('submit', function (e) {
+  e.preventDefault();
+  const guess = $('#answer').val().trim().toLowerCase();
+  const $result = $('#puzzle-result');
+
+  if (guess === 'echo') {
+    $result
+      .text('🎉 Correct! Use code ECHO10 at checkout for 10% off.')
+      .css('color', '#f75280')   // bright pink
+      .show();
+  } else {
+    $result
+      .text('❌ Not quite. Try again!')
+      .css('color', 'red')
+      .show();
+  }
+});

@@ -60,7 +60,7 @@
       <div id="homebig" class="section"></div>
       <div id="hero">
         <div class="hero-content">
-          <h1 class="headtag">“Stay, Play, Escape”</h1>
+          <h2 class="headtag">“Stay, Play, Escape”</h2>
           <button class="explore-btn">Explore Rooms</button>
         </div>
       </div>
@@ -70,7 +70,7 @@
 
 
       <div id="mapa" class="section">
-        <h1 class="heading">How to Find Us</h1>
+        <h2 class="heading">How to Find Us</h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2164.1267653211253!2d-2.102829923029257!3d57.151989973634066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48840e17e7a14d39%3A0x39654090a0587f05!2sNorth%20East%20Scotland%20College!5e0!3m2!1sen!2suk!4v1747516076466!5m2!1sen!2suk"
           allowfullscreen=""
@@ -122,10 +122,39 @@
           <p class="rewards">Rewards</p>
           <img src="img/puzzle.png" class="round-img" alt="Play Your Game" />
           <p class="booking">Play</p>
+        
         </div>
       </div>
       <button class="nav-btn" data-target="#how-to-play">How To Play</button>
     </section>
+    
+    <!-- Mystery mini-puzzle -->
+     <section id="puzzle" class="mystery spa" >
+      <h2>Can You Solve This?</h2>
+      <form id="riddle-form">
+        <p class="riddle-text">
+          I speak without a mouth and hear without ears. What am I?
+        </p>
+    
+        <input id="answer"
+               type="text"
+               placeholder="Your answer"
+               required
+               aria-label="Riddle answer">
+
+               <button class="btn-primary" type="submit">Submit</button>
+              </form><p id="puzzle-result"> </p>
+              <button id="book-btn" class="btn-primary" onclick="location.hash='#book'">
+                  Book Now &amp; Apply Code
+              </button>
+
+
+            </section>
+    
+
+  
+      
+
 
     <!--FOOTER-->
     <section>
@@ -176,5 +205,7 @@
       referrerpolicy="no-referrer"
     ></script>
     <script src="js/app.js"></script>
+   
+
   </body>
 </html>
