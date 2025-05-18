@@ -47,7 +47,7 @@ $(document).ready(function() {
         })
 
         $("#pricelis li").each(function(index){
-            $(this).text(lists1[index] + " " + listi[5][index])
+            $(this).append(listi[5][index])
         })
 
         $('#reward1').text(listi[6])
@@ -72,7 +72,7 @@ $(document).ready(function() {
         })
 
         $("#pricelis li").each(function(index){
-            $(this).text("");
+            $(this).text(lists1[index]);
         })
 
         $('#reward1').text("")
@@ -153,7 +153,7 @@ $(document).ready(function() {
         })
 
         $("#pricelis li").each(function(index){
-            $(this).text("");
+            $(this).text(lists1[index]);
         })
 
         $('#reward1').text("")
@@ -188,7 +188,7 @@ $(document).ready(function() {
         })
 
         $("#pricelis li").each(function(index){
-            $(this).text(lists1[index] + " " + listi[5][index])
+            $(this).text(lists1[index]);
         })
 
         $('#reward1').text("")
