@@ -817,23 +817,37 @@ html {
     z-index: 3;
   }
 
-  #hero{
+  
+ /*HOMEPAGE SECTION */
+
+    /* home section background */
+    
+    #homebig{
+      background-color:#e9f5fd;
+    } 
+    
+    /* HERO block with background image */
+    #hero{
       
-    background: url("../img/puzzled-bckgrd.png") no-repeat center center;
-    background-size: cover;
-    min-height:100vh;            
-    display:flex;
-    align-items:center;
-    justify-content:center;
-  }
+      background: url("../img/puzzled-bckgrd.png") no-repeat center center;
+      background-size: cover;
+      min-height:100vh;            
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      
     
     
-  .hero-content{
-    text-align:center;
-    padding:20px;
-    border-radius:20px;
-    color:#f85583;
-  }
+    }
+    
+    
+    /* inner content */
+    .hero-content{
+      text-align:center;
+      padding:20px;
+      border-radius:20px;
+      color:#f85583;
+    }
 
   
    
@@ -842,132 +856,105 @@ html {
 
 
 
-  .headtag{
-    font-family: "DynaPuff", cursive;
-    font-size: 10vw;
-    margin: 60px 0;
-    text-align: center;
-    color: #f85583;
-  }
+/* Headline */
+.headtag {
+  font-family: "DynaPuff", cursive;
+  font-size: 2.5rem;
+  margin: 60px 0;
+  text-align: center;
+  color: #f85583;
+  
+}
 
-  .about1 {
-    font-size: 1rem;
-    color: #444;
-   max-width: 600px;
-   margin: 24px;
-    line-height: 1.5;
-  }
-
-
-  .explore-btn {
-    padding: 10px 30px;
-    text-decoration: underline;
-    background-color: white;
-    color: #00A9FE;
-    border: none;
-    border-radius: 40px;
-    cursor: pointer;
-    font-family: "Roboto", sans-serif;
-    font-size: 1.5em;
-    font-weight: 300;
-    margin-bottom: 30px;
-    transition: background 0.3s ease;
-  }
-
-  .explore-btn:focus {
-    outline: 3px solid #00A9FE;
-    outline-offset: 4px;
-  }
+.about1 {
+  font-size: 1rem;
+  color: #444;
+  max-width: 600px;
+  margin: 24px;
+  line-height: 1.5;
+}
 
 
-  .explore-btn:hover {
-   background-color: #f85583;
-  }
+  /* BUTTON TO ANOTHER PART */
+.explore-btn {
+  padding: 10px 30px;
+  text-decoration: underline;
+  background-color: white;
+  color: #00A9FE;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-bottom: 30px;
+  transition: background 0.3s ease;
+}
+
+.explore-btn:focus {
+  outline: 3px solid #00A9FE;
+  outline-offset: 4px;
+}
+
+
+.explore-btn:hover {
+  background-color: #f85583;
+}
   
 
   /* MAP SECTION */
 
    #map {
     width: 90%;
-    height: 400px;
-    border: none;
+    height: 300px;
+    border: medium;
     border-radius: 15px;
     max-width: 1000px;
   } 
    
-  #mapsec{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .four{
-    width: 40%;
-    margin: 10px;
-  }
-
-  .howheading{
-    font-family: "DynaPuff", cursive;
-    font-size: 10vw;
-    margin: 60px 0;
-    text-align: center;
-    color: #9cc2d1;
-
-  }
-
-  .about1{font-family: "Roboto", sans-serif;
-    color: black;
-
-  }
-
-  #about{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-  }
-
-  .fourimg{
-    display: flex;
-    justify-content: center;
-  }
-
-  #triangle{
+  #mapa {
     width: 90%;
-
-  }
-
-
-
-
-    
-  .image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 20px;
+    height: 300px;
     padding: 40px 20px;
-    justify-items: center;
+    text-align: center;
+    background-color: #f5f5f5;
+  } 
+
+  #mapa h1 {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: #00a9fe;
   }
+
+
+
+  /* IMAGE GRID SECTION */
+    
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+      justify-items: center;
+      /* background-color: #fff; */
+    }
   
-  .image-grid img {
-    width: 100%;
-    max-width: 300px;
-    border-radius: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
+    .image-grid img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
   
-  .image-grid img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  }
+    .image-grid img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
     
 
-  
-  
 
-    /* HOW TO PLAY SECTION */
+  /* HOW TO PLAY SECTION */
 
   #how-to-play {
     padding: 40px 20px;
@@ -979,6 +966,7 @@ html {
   .how-to-play h3 {
     font-size: 2rem;
     color: #f85583;
+    /* margin-bottom: 16px; */
     font-family: "DynaPuff", sans-serif;
     margin: 60px 0;
     text-align: center;
@@ -994,15 +982,77 @@ html {
   }
 
 
-  .round-img {
-    width: 70px;
-    height: 70px;
-    object-fit:none;
-    border-radius: 50%;
-    transition: transform 0.3s ease;
-    justify-content: space-between;
-    align-items: center;
-  }
+.round-img {
+  width: 70px;
+  height: 70px;
+  object-fit:none;
+  border-radius: 50%;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); */
+  transition: transform 0.3s ease;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+/* ---------- PUZZLE / RIDDLE SECTION ---------- */
+#mystery,  /* class name */
+
+#riddle-form {
+  padding:8px 12px;
+  border-radius:8px;
+  border:1px solid #ccc;
+  max-width:280px;
+  width:80%"
+}
+
+#puzzle-result{
+
+  display:none;
+  margin-top: 12px;
+  font-weight:bold;
+}
+
+
+
+  #book-btn{
+  display:none;
+  margin-top:8px;
+  }  
+ 
+
+#puzzle {
+  padding: 32px 16px;
+  text-align: center;
+  background: var(--surface-lighter);   /* soft aqua */
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.08);
+  margin: 24px auto;
+  max-width: 640px;
+}
+
+.riddle-text {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: var(--text-dark);
+}
+
+/* Input field */
+#answer {
+  width: 80%;
+  max-width: 320px;
+  padding: 10px 14px;
+  border: 2px solid var(--brand-blue);
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 12px;
+  outline: none;
+  transition: border-color .25s;
+}
+#answer:focus {
+  border-color: var(--brand-pink);
+}
+
 
 
 

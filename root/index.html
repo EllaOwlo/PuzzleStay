@@ -18,6 +18,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
+    <script src="js/main.js" defer></script>
+
   </head>
 
   <body>
@@ -39,19 +41,33 @@
       </div>
     </header>
 
-    <!-- HomePage Section  -->
+    
+    
+    
+    
+    <!-- HomePage Section (Yemi) -->
 
-    <section id="homebig" class="select">
+    <section>
+      <div id="homebig" class="section"></div>
       <div id="hero">
         <div class="hero-content">
-          <h1 class="headtag">“Stay, Play, Escape”</h1>
-          <button id="pressbutton"class="explore-btn">Explore Rooms</button>
+          <h2 class="headtag">“Stay, Play, Escape”</h2>
+          <button class="explore-btn">Explore Rooms</button>
         </div>
       </div>
-      <div id="mapsec">
-        <h1 class="howheading">How to Find Us</h1>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2164.126595097274!2d-2.1028299227670906!3d57.15199288336295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48840e17e7a14d39%3A0x39654090a0587f05!2sNorth%20East%20Scotland%20College!5e0!3m2!1sen!2suk!4v1747581521771!5m2!1sen!2suk" width="80%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <button class="nav-btn" data-target="#homebig">Home</button>
 
+   
+
+
+      <div id="mapa" class="section">
+        <h2 class="#contact-us">How to Find Us</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2164.1267653211253!2d-2.102829923029257!3d57.151989973634066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48840e17e7a14d39%3A0x39654090a0587f05!2sNorth%20East%20Scotland%20College!5e0!3m2!1sen!2suk!4v1747516076466!5m2!1sen!2suk"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
 
       <div id="about">
@@ -67,33 +83,62 @@
           accommodations, where guests solve challenges to unlock exclusive
           experiences, discounts, or amenities.
         </p>
+      </div>
+      <button class="nav-btn" data-target="#mapa">Map</button>
 
       
 
-
-        <div class="fourimg">
-          <img class="four" src="img/four1.png" alt="Room themed game" />
-          <img class="four"src="img/four2.png" alt="Room themed game" />
-
-        </div>
-        <div class="fourimg">
-
-          <img class="four" src="img/four3.png" alt="Room themed game" />
-          <img class="four"src="img/four4.png" alt="Room themed game" />
-
-
-        </div>
-
+      <div class="image-grid">
+        <img src="img/four1.png" alt="Room themed game" />
+        <img src="img/four2.png" alt="Room themed game" />
+        <img src="img/four3.png" alt="Room themed game" />
+        <img src="img/four4.png" alt="Room themed game" />
       </div>
 
-      <div class="howheading">
-        <h3 id="howto">How to Play</h3>
+      <div id="how-to-play" class="section">
+        <h3>How to Play</h3>
 
-        <p class="about1"> Our games are for young families who would like to get busy and have fun during their stays. </p>
-
-        <img id="triangle"src="./img/tri.png">
+        <p class="about1">
+          Our games are for young families who would like to get busy and have
+          fun during their stays.
+        </p>
+        <div class="image-grid">
+          <img
+            src="img/search.png"
+            class="round-img"
+            alt="Search and Solve Puzzle"
+          />
+          <p class="search-btn">Search</p>
+          <img src="img/coin.png" class="round-img" alt="Rewards" />
+          <p class="rewards">Rewards</p>
+          <img src="img/puzzle.png" class="round-img" alt="Play Your Game" />
+          <p class="booking">Play</p>
+        </div>
       </div>
+      <button class="nav-btn" data-target="#how-to-play">How To Play</button>
     </section>
+
+
+
+    <section id="puzzle" class="mystery spa" >
+      <h2>Can You Solve This?</h2>
+
+      <form id="riddle-form">
+          <p class="riddle-text">I speak without a mouth and hear without ears. What am I?</p>
+
+          <input id="answer" type="text" placeholder="Your answer" required aria-label="Riddle answer">
+              
+          <button class="btn-primary" type="submit">Submit</button>
+      </form>
+
+      <p id="puzzle-result"> </p>
+      <button id="book-btn" class="btn-primary" onclick="location.hash='#book'">
+          Book Now &amp; Apply Code
+      </button>
+  </section>
+
+ 
+  
 
 
 
@@ -476,7 +521,7 @@
 
 
 
-<!-- Yemi's Section -->
+
 
 
 
@@ -567,9 +612,10 @@
     
     
         <h3 id="buttonf"><a id="color" href="#marker">Back to top</a></h3>
+        © 2025 PuzzleStay | Stay connected with us 💛💙💗
     </footer>
 
 
-    
+    <script src="js/app.js"></script>
 </body>
 </html>
