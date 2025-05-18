@@ -169,9 +169,7 @@ $(document).ready(function() {
 
     $('#logo').click(function(){
 
-        $('.hselect').animate({ opacity: 0 }, 0, function() {
-            $(this).css('display', 'none');
-        });
+        $(".hselect").css('display', 'none');
         $('#homebig').css({ opacity: 0, display: 'block' }).animate({ opacity: 1 }, 300);
 
         
