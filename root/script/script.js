@@ -37,7 +37,7 @@ $(document).ready(function() {
         $('#buildingids').attr("src" , listi[8])
 
 
-        $('#headtop1').text(listi[0])
+        $('#headtop').text(listi[0])
         $('#des').text(listi[1])
         $('#diff').text("Difficulty: " + listi[2])
         $('#pricey').text("Min: " + listi[3])
@@ -62,7 +62,7 @@ $(document).ready(function() {
         $('#buildingids').attr("src" , "")
 
 
-        $('#headtop1').text("")
+        $('#headtop').text("")
         $('#des').text("")
         $('#diff').text("")
         $('#pricey').text("")
@@ -143,7 +143,7 @@ $(document).ready(function() {
         $('#buildingids').attr("src" , "")
 
 
-        $('#headtop1').text("")
+        $('#headtop').text("")
         $('#des').text("")
         $('#diff').text("")
         $('#pricey').text("")
@@ -169,16 +169,16 @@ $(document).ready(function() {
 
     $('#logo').click(function(){
 
-
-        $(".hselect").css('display', 'none');
-
+        $('.hselect').animate({ opacity: 0 }, 0, function() {
+            $(this).css('display', 'none');
+        });
         $('#homebig').css({ opacity: 0, display: 'block' }).animate({ opacity: 1 }, 300);
 
         
         $('#buildingids').attr("src" , "")
 
 
-        $('#headtop1').text("")
+        $('#headtop').text("")
         $('#des').text("")
         $('#diff').text("Difficulty:")
         $('#pricey').text("Min:")
