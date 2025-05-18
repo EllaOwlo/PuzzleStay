@@ -48,96 +48,78 @@
 
 
 
-    <!-- HomePage Section  -->
-    <section>
+    
 
-        <div id="homebig" class="section"></div>
-        <div id="hero">
-          <div class="hero-content">
-            <h2 class="headtag">“Stay, Play, Escape”</h2>
-            <button class="explore-btn">Explore Rooms</button>
-          </div>
+
+
+    <section>
+      <div id="homebig" class="section"></div>
+      <div id="hero">
+        <div class="hero-content">
+          <h2 class="headtag">“Stay, Play, Escape”</h2>
+          <button class="explore-btn">Explore Rooms</button>
         </div>
-        <button class="nav-btn" data-target="#homebig">Home</button>
-  
-     
-  
-  
-        <div id="mapa" class="section">
-          <h2 class="#contact-us">How to Find Us</h2>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2164.1267653211253!2d-2.102829923029257!3d57.151989973634066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48840e17e7a14d39%3A0x39654090a0587f05!2sNorth%20East%20Scotland%20College!5e0!3m2!1sen!2suk!4v1747516076466!5m2!1sen!2suk"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-  
-        <div id="about">
-          <h2 class="headtag">PuzzleStay</h2>
-  
-          <p class="about1">
-            PuzzleStay is an innovative web application designed to revolutionize
-            the hospitality industry by integrating interactive escape room-style
-            experiences into hotel stays.
-          </p>
-          <p class="about1">
-            The app connects travelers with hotels offering immersive puzzle-based
-            accommodations, where guests solve challenges to unlock exclusive
-            experiences, discounts, or amenities.
-          </p>
-        </div>
-        <button class="nav-btn" data-target="#mapa">Map</button>
-  
-        
-  
+      </div>
+      <button class="nav-btn" data-target="#homebig">Home</button>
+
+   
+
+
+      <div id="mapa" class="section">
+        <h2 class="#contact-us">How to Find Us</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2164.1267653211253!2d-2.102829923029257!3d57.151989973634066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48840e17e7a14d39%3A0x39654090a0587f05!2sNorth%20East%20Scotland%20College!5e0!3m2!1sen!2suk!4v1747516076466!5m2!1sen!2suk"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <div id="about">
+        <h2 class="headtag">PuzzleStay</h2>
+
+        <p class="about1">
+          PuzzleStay is an innovative web application designed to revolutionize
+          the hospitality industry by integrating interactive escape room-style
+          experiences into hotel stays.
+        </p>
+        <p class="about1">
+          The app connects travelers with hotels offering immersive puzzle-based
+          accommodations, where guests solve challenges to unlock exclusive
+          experiences, discounts, or amenities.
+        </p>
+      </div>
+      <button class="nav-btn" data-target="#mapa">Map</button>
+
+      
+
+      <div class="image-grid">
+        <img src="img/four1.png" alt="Room themed game" />
+        <img src="img/four2.png" alt="Room themed game" />
+        <img src="img/four3.png" alt="Room themed game" />
+        <img src="img/four4.png" alt="Room themed game" />
+      </div>
+
+      <div id="how-to-play" class="section">
+        <h3>How to Play</h3>
+
+        <p class="about1">
+          Our games are for young families who would like to get busy and have
+          fun during their stays.
+        </p>
         <div class="image-grid">
-          <img src="img/four1.png" alt="Room themed game" />
-          <img src="img/four2.png" alt="Room themed game" />
-          <img src="img/four3.png" alt="Room themed game" />
-          <img src="img/four4.png" alt="Room themed game" />
+          <img
+            src="img/search.png"
+            class="round-img"
+            alt="Search and Solve Puzzle"
+          />
+          <p class="search-btn">Search</p>
+          <img src="img/coin.png" class="round-img" alt="Rewards" />
+          <p class="rewards">Rewards</p>
+          <img src="img/puzzle.png" class="round-img" alt="Play Your Game" />
+          <p class="booking">Play</p>
         </div>
-  
-        <div id="how-to-play" class="section">
-          <h3>How to Play</h3>
-  
-          <p class="about1">
-            Our games are for young families who would like to get busy and have
-            fun during their stays.
-          </p>
-          <div class="image-grid">
-            <img
-              src="img/search.png"
-              class="round-img"
-              alt="Search and Solve Puzzle"
-            />
-            <p class="search-btn">Search</p>
-            <img src="img/coin.png" class="round-img" alt="Rewards" />
-            <p class="rewards">Rewards</p>
-            <img src="img/puzzle.png" class="round-img" alt="Play Your Game" />
-            <p class="booking">Play</p>
-          </div>
-        </div>
-        <button class="nav-btn" data-target="#how-to-play">How To Play</button>
-      </section>
-  
-  
-  
-      <section id="puzzle" class="mystery spa" >
-        <h2>Can You Solve This?</h2>
-  
-        <form id="riddle-form">
-            <p class="riddle-text">I speak without a mouth and hear without ears. What am I?</p>
-  
-            <input id="answer" type="text" placeholder="Your answer" required aria-label="Riddle answer">
-                
-            <button class="btn-primary" type="submit">Submit</button>
-        </form>
-  
-        <p id="puzzle-result"> </p>
-        <button id="book-btn" class="btn-primary" onclick="location.hash='#book'">
-            Book Now &amp; Apply Code
-        </button>
+      </div>
     </section>
   
    

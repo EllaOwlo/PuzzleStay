@@ -34,6 +34,7 @@ html {
     position: fixed;
     width: 100%;
     height: 100px;
+    justify-content: center;
   }
   
 
@@ -42,9 +43,9 @@ html {
     font-family: "Bagel Fat One", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 10vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
 
@@ -64,7 +65,7 @@ html {
     text-align: center;
     margin: 0px;
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 4vw;
   } 
 
   #headdiv2 {
@@ -92,6 +93,7 @@ html {
     z-index: 3;
   }
 
+  
   /*HOMEPAGE SECTION */
 
     /* home section background */
@@ -269,8 +271,9 @@ html {
 
 
 
+
 /* ---------- PUZZLE / RIDDLE SECTION ---------- */
-#mystery,  /* legacy class name */
+#mystery,  /* class name */
 
 #riddle-form {
   padding:8px 12px;
@@ -328,9 +331,6 @@ html {
 }
 
 
-
-
-
   /* FOOTER*/
   footer {
     background-color: #9cc2d1;
@@ -346,7 +346,7 @@ html {
     font-family: "DynaPuff", system-ui;
     color: white;
     font-weight: 30;
-    font-size: 35px;
+    font-size: 10vw;
     margin: 0px;
   }
 
@@ -389,13 +389,12 @@ html {
     display: flex;
     justify-content: flex-start;
     gap: 10px;
+    width: 100%;
+  }
+
+  .media{
+    width: 10%;
   }
 }
-
-
-  
-
-  
-
 
 
